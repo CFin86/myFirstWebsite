@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+h1 {
+    text-align:center;
+    color:blue;
+    text-decoration: underline;
+    margin: 0;
+    padding: 21px 0px 21px 0px;
+}
+.jumbotron {
+    background-image: url(images/dogscrop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 400px 0px 150px;
+}
+h2 {
+    margin-left: 80px;
+}
+.container {
+    width: 100%;
+    color: white;
+}
+.column {
+    float: left;
+    height: 20em;
+    width: 31%;
+    text-align: center;
+    margin: 1%;
+}
+.container:after{
+    content: "";
+    display:table;
+    clear:both;
+}
+#one {
+    background-color: grey;
+}
+#two {
+    background-color: green;
+}
+#three {
+    background-color: blue;
+}
